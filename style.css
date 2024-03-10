@@ -312,6 +312,8 @@ body{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
+    /* background: #d1d5c3; */
+    background: #cbbcbc;
     
 } 
 
@@ -319,7 +321,8 @@ body{
 .contact .right form .textarea textarea{
     padding-top: 10px;
     resize: none;
-
+    background: #cbbcbc;
+    border: none;
 }
 
 .contact .right form .button{
@@ -341,6 +344,7 @@ body{
     cursor: pointer;
     margin-top: 75px;
     margin-bottom: 40px;
+    /* margin-bottom: 1000px; */
     transition: all 0.3 ease;
 
 
@@ -388,4 +392,172 @@ section .title::after{
     transform: translateX(-50%);
 }
 
+
+
+
+
+@media (max-width: 1300px) {
+    .home .max-width{
+      margin-left: 0px;
+    }
+  }
+  
+
+
+@media (max-width: 1104px){
+    .about .main-head .col-left .img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 991px){
+
+    .about .main-head .col-left .set-up{
+        margin-left: 460px;
+        width: 500px;
+        height: 500px;
+    }
+    .about .main-head .col-right {
+        width: 670%;
+    }
+    .about .main-head .col-right {
+        width: 670%; 
+        font-size: 30px;
+    }
+
+    .about .main-head{
+        width: 112%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px;
+    }
+
+
+    .skills{
+        background: black;
+    }
+    .skills .skills-content{
+        width: 305%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+       
+    }
+
+    .skills .skills-content .left p{
+        margin-right: 90px;
+        line-height: 30px;
+        
+    }
+    .skills .skills-content .right .bars{
+        margin-right: 90px;
+         
+    }
+    .skills .skills-content .right{
+        /* margin-right: 90px; */
+         margin-top: 70px;
+    }
+
+
+    .contact .max-width{
+        width: 120%;
+    }
+
+    .contact .contact-content .info{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    /* .contact .title{
+        margin-left: 50px;
+    } */
+    .contact .right form .fields {
+       
+        width: 460px;
+    }
+    .contact .right form .field {
+        width: 460px;
+    }
+
+
+    .contact .right form .textarea textarea {
+        width: 458px;
+        
+    }
+
+    /* .contact .title{
+        margin-left: 300px;
+    } */
+
+   
+  
+} 
+@media (max-width: 947px){
+   /* .menu-btn{ */
+        /* display: block; */
+        /* z-index: 999; */
+    /* } */
+
+    /* .menu-btn i.active:before{
+        content: \f00d;
+    } */
+
+    /* .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        /* left: -100%; */
+        /* top: 0; */
+        /* background: #111; */
+        /* text-align: center; */
+        /* padding-top: 80px; */
+        /* transition: all 0.3 ease; */
+    /* }   */
+ 
+    /* .navbar .menu .active{
+        left: -100;
+    } */
+    /* .navbar .menu li{
+        display: block;
+    } */
+    /* .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    } */
+
+
+   
+    .about .main-head .columns{
+        width: 100%;
+
+    }
+    .about .main-head .col-left{
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto 60px; */
+        margin-top: 150px;
+        margin-left: 20px;
+
+    }
+    .about .main-head .col-right{
+        /* flex: 100%; */
+        width: 500%;
+
+    }
+
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+/* @media (max-width:690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+    .home
+} */
 
